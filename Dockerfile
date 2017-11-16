@@ -18,3 +18,4 @@ RUN cd /opt && \
     chmod 777 /var/log/PlexComskip.log
 
 ADD ./PlexComskip.conf /opt/PlexComskip/PlexComskip.conf
+ADD ./comskip.ini /opt/PlexComskip/comskip.ini
