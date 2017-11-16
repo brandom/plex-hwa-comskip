@@ -1,0 +1,5 @@
+version: '2'
+services:
+  plex:
+    build: ./
+    image: localhost:5000/pms-hwa-comskip:plexpass
