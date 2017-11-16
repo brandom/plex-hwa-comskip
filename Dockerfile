@@ -18,6 +18,3 @@ RUN cd /opt && \
     chmod 777 /var/log/PlexComskip.log
 
 ADD ./PlexComskip.conf /opt/PlexComskip/PlexComskip.conf
-ADD ./transcode-comskip.sh /opt/PlexComskip/transcode-comskip.sh
-
-RUN chmod +x /opt/PlexComskip/transcode-comskip.sh
